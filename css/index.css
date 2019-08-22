@@ -1,0 +1,40 @@
+#master{
+    display: flex;
+    margin-left: 39%;
+    margin-top: 5%;
+    
+    
+    
+    
+    
+}
+
+#top,#mid,#end{
+    margin-left: 3px;
+    
+    
+
+}
+
+
+
+
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9{
+    background-color: aqua;
+    border: solid;
+    margin-top: 4px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    
+    
+}
+
+#div1,#div5,#div9{
+    text-align: center;
+    font-size: 70px;
+    
+    line-height: 100px;
+    
+}
+
