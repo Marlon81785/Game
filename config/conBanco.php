@@ -2,7 +2,7 @@
     $servidor = 'localhost';
     $usuario = 'root';
     $senha = ''; 
-    $banco = 'jogo';
+    $banco = 'epiz';
 
     $mysqli = mysqli_connect($servidor, $usuario, $senha, $banco);
 

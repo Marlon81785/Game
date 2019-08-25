@@ -6,7 +6,7 @@
             if($queryUser = mysqli_fetch_assoc($queryUser1)){
                 session_start();
                 $_SESSION['UsrEmail'] = $_POST['UsrEmail'];
-                $_SESSION['Nome'] = $queryUser['Nome'];
+                $_SESSION['UsrNome'] = $queryUser['UsrNome'];
                 $_SESSION['UsrPoints'] = $queryUser['UsrPoints'];
                 if($valida = mysqli_query($mysqli, "UPDATE cadastro SET UsrSession = 1 WHERE UsrEmail = '$_POST[UsrEmail]' ")){
                     header('Location: logado.php');
